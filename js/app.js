@@ -104,8 +104,8 @@ function clearTable (){
     table.removeChild(table.lastChild);
   }
 
-  studentTable.removeChild(h2El);
 
+  h2El.textContent = '';
 }
 
 function calculateTotal(){
