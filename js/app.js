@@ -87,7 +87,8 @@ Student.prototype.saveData = function (){
 };
 
 Student.prototype.generateAge = function (){
-  this.stdAge = Math.floor(Math.random() * 24) + 18 ;
+  this.stdAge = Math.floor(Math.random() * (24 - 18 + 1) + 18);
+ 
 };
 
 function saveLocal (){
